@@ -1,3 +1,11 @@
+###############################################################
+# 
+# Description: Access CRAN home page
+# scrape url's for all packages and download
+# the individual pages for each package to the
+# /download directory
+#
+##############################################################
 from bs4 import BeautifulSoup
 import urllib.request
 import logging
